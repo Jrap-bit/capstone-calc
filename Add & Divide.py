@@ -11,4 +11,4 @@ def divide(a, b):
     return a / b
 
 print (add(1, 2, 3, 4, 5))
-divide(1, 2)
+print (divide(1, 2))
