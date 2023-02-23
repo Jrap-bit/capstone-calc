@@ -7,5 +7,8 @@ def add(*args):
 
 def divide(a, b):
     if b == 0:
-        raise ValueError("Cannot divide by zero")
+        print("Can't divide by zero!")
     return a / b
+
+print (add(1, 2, 3, 4, 5))
+divide(1, 2)
