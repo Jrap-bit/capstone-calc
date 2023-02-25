@@ -1,9 +1,8 @@
-def add(*args):
-    total = 0
-    for num in args:
-        total += num
-    return total
-
+def addition(numbers):
+    add = numbers[0]
+    for i in range(1, len(numbers)):
+        add = add + numbers[i]
+    return add
 
 def divide(dividend, divisor):
     try:

@@ -16,7 +16,7 @@ if __name__ == '__main__':
         num_arr = []
         for i in range(nums):
             num_arr.append(int(input(("Enter number {} to add: ".format(i + 1)))))
-        print("Sum = ", add_divide.add(num_arr))
+        print("Sum = ", add_divide.addition(num_arr))
     elif choice == 2:
         print("Enter the numbers to be subtracted")
         nums = int(input("How many numbers do you want to subtract?: "))
